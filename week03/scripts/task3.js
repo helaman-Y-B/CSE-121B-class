@@ -117,4 +117,8 @@ const multiNumber = numberList.map(function (number) {
     return number * 2;
 })
 document.querySelector('#multiplied').textContent = multiNumber;
+
 // Step 7: Use the map and reduce array methods to sum the array elements after multiplying each element by two.  Assign the result to the HTML element with an ID of "sumOfMultiplied"
+const sumArrayTimeTwo = multiNumber.reduce(sumFunction);
+
+document.querySelector('#sumOfMultiplied').textContent = sumArrayTimeTwo;
