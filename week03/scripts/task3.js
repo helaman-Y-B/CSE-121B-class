@@ -39,8 +39,9 @@ let getSubNum = function subtractNumbers() {
     let subNumber1 = document.getElementById('minuend').value;
     let subNumber2 = document.getElementById('subtrahend').value;
     let subAnswer = subtr(subNumber1, subNumber2);
-    document.querySelector('#difference').value = subAnswer;
+    //document.querySelector('#difference').value = subAnswer;
 }
+document.querySelector('#difference').value = getSubNum;
 
 document.getElementById('subtractNumbers').addEventListener('click', getSubNum);
 
