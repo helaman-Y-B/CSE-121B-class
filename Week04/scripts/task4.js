@@ -3,36 +3,12 @@
 /* DATA */
 
 // Step 1: Declare a new variable to hold information about yourself
-let mySelf = {}
-
-// Step 2: Inside of the object, add a property named name with a value of your name as a string
 mySelf = {
-    name: "Helamã Barbour"
-}
-
-// Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
-mySelf = {
+    // Step 2: Inside of the object, add a property named name with a value of your name as a string
     name: "Helamã Barbour",
-    photo: "images/download.png"
-}
-
-// Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
-mySelf = {
-    name: "Helamã Barbour",
-    photo: "images/download.png",
-    favoriteFoods: [
-        "hamburguer",
-        "pizza",
-        "Carrot cake",
-        "Lasagna",
-        "Pão de queijo"
-    ]
-}
-
-// Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
-mySelf = {
-    name: "Helamã Barbour",
-    photo: "images/download.png",
+    // Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
+    photo: "images/20210918_084417 (1).jpg",
+    // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
     favoriteFoods: [
         "hamburguer",
         "pizza",
@@ -40,99 +16,21 @@ mySelf = {
         "Lasagna",
         "Pão de queijo"
     ],
-    hobbies: [
-        "Play video games",
-        "Study programming",
-        "Cook"
-    ]
-}
-
-// Step 6: Add another property named placesLived with a value of an empty array
-mySelf = {
-    name: "Helamã Barbour",
-    photo: "images/download.png",
-    favoriteFoods: [
-        "hamburguer",
-        "pizza",
-        "Carrot cake",
-        "Lasagna",
-        "Pão de queijo"
-    ],
-    hobbies: [
-        "Play video games",
-        "Study programming",
-        "Cook"
-    ],
-    placesLived: [],
-}
-
-// Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
-mySelf = {
-    name: "Helamã Barbour",
-    photo: "images/download.png",
-    favoriteFoods: [
-        "hamburguer",
-        "pizza",
-        "Carrot cake",
-        "Lasagna",
-        "Pão de queijo"
-    ],
-    hobbies: [
-        "Play video games",
-        "Study programming",
-        "Cook"
-    ],
-    placesLived: [
-        place = "",
-        length = ""
-    ],
-}
-
-// Step 8: For each property, add appropriate values as strings
-mySelf = {
-    name: "Helamã Barbour",
-    photo: "images/download.png",
-    favoriteFoods: [
-        "hamburguer",
-        "pizza",
-        "Carrot cake",
-        "Lasagna",
-        "Pão de queijo"
-    ],
-    hobbies: [
-        "Play video games",
-        "Study programming",
-        "Cook"
-    ],
-    placesLived: [
-        {
-            place: "Canada",
-            length: "2 Years"
-        }
-    ],
-}
-
-// Step 9: Add additional objects with the same properties for each place you've lived
-mySelf = {
-    name: "Helamã Barbour",
-    photo: "images/download.jpg",
-    favoriteFoods: [
-        "hamburguer",
-        "pizza",
-        "Carrot cake",
-        "Lasagna",
-        "Pão de queijo"
-    ],
+    // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
     hobbies: [
         "Play video games",
         "Do some programming",
         "Cook"
     ],
+    // Step 6: Add another property named placesLived with a value of an empty array
     placesLived: [
         {
+            // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
+            // Step 8: For each property, add appropriate values as strings
             place: "Canada",
             length: "2 Years"
         },
+        // Step 9: Add additional objects with the same properties for each place you've lived
         {
             place: "Brazil",
             length: "16 Years"
