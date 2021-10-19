@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+main {
+    font-family: "Roboto", sans-serif, serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.explenation-box {
+    text-align: center;
+    background-color: rgb(12, 216, 148);
+    padding: 10px;
+}
+
+.explenation-box p {
+    margin: 10px;
+    font-family: "Roboto", sans-serif, serif;
+}
+
+.example-box {
+    background-color: rgb(12, 107, 75);
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.example-box p {
+    font-family: "Roboto", sans-serif, serif;
+}
+
+#yes-button {
+    font-family: "Roboto", sans-serif, serif;
+}
+
+#no-button {
+    font-family: "Roboto", sans-serif, serif;
+}
+
+.example-button {
+    font-family: "Roboto", sans-serif, serif;
+    margin: 5px;
+}
